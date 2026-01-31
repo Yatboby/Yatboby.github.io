@@ -1,0 +1,7 @@
+site_name: Yatbo's Tech Notes
+site_description: 工科大一 · 学习记录
+theme:
+  name: material
+
+nav:
+  - 首页: index.md
