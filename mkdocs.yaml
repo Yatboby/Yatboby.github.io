@@ -1,7 +1,37 @@
-site_name: Yatbo's Tech Notes
+site_name: Yatboby's Website
 site_description: 工科大一 · 学习记录
+site_url: https://yatboby.github.io
+
 theme:
   name: material
+  language: zh
 
+  features:
+    - navigation.tabs  # 添加选项卡式导航
+    - navigation.sections  # 启用节导航
+    - navigation.expand  # 自动展开当前页面
+    - navigation.top  # 显示返回顶部按钮
+
+ # 配置导航栏样式
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: 切换到深色模式
+        
 nav:
   - 首页: index.md
+
+# 设置Markdown扩展
+markdown_extensions:
+  - admonition  # 添加警告框
+  - codehilite  # 代码高亮
+  - toc:
+      permalink: true  # 目录永久链接
+  - tables  # 表格支持
+  - footnotes  # 脚注支持
+
+# 版权信息
+copyright: Copyright &copy; 2026 Yatbo. 保留所有权利。
